@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="/img/Ícones de Moeda para download gratuito.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Mobile Money Patment</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Make Payment</header>
+        <form id="paymentForm" action="#">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email address"
+            required
+          />
+          <input
+            type="number"
+            id="amount"
+            placeholder="Enter amount"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Enter momo number"
+            id="mobileNumber"
+            required
+          />
+          <input type="submit" value="Pay Now" />
+        </form>
+      </div>
+
+      <div class="form login">
+        <header>Make Payout</header>
+        <form id="payouttForm" action="#">
+          <input
+            type="number"
+            placeholder="Enter amount"
+            id="payoutAmount"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Enter momo number"
+            id="payoutMobileNumber"
+            required
+          />
+          <input type="submit" value="Send Payout" />
+        </form>
+      </div>
+    </section>
+
+    <script src="/script.js"></script>
+    <script src="/New folder/script.js"></script>
+  </body>
+</html>
